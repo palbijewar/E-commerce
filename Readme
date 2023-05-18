@@ -1,0 +1,37 @@
+//  OR:   .find(   { $or : [ {cond1 } , {cond2} , {cond3} ] }  )    
+// { $in : [0,10,20, 30, 40, 50] }
+// $eq
+// {$ne: "Intro to Coding" }
+// $gt:
+// $lt:
+// $gte:
+// $lte:
+// $in:
+// $nin:
+// regex
+
+// Model.deleteMany()
+// Model.deleteOne()
+// Model.find()
+// Model.findById()
+// Model.findByIdAndDelete()
+// Model.findByIdAndRemove()
+// Model.findByIdAndUpdate()
+// Model.findOne()
+// Model.findOneAndDelete()
+// Model.findOneAndRemove()
+// Model.findOneAndReplace()
+// Model.findOneAndUpdate()
+// Model.replaceOne()
+// Model.updateMany()
+// Model.updateOne()
+
+// updateStocks: takes inStock as input in get request and gives list of all orders  
+// getParticularProduct:- getch product according to the query you send in query params
+// findProducts : find products between price 1000 and 100000
+//fetchUser : from order id find user name
+//fetchProduct : from order id find product name and its price 
+
+//create middleware
+//authenticate users
+//authorise clients
