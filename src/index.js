@@ -6,6 +6,7 @@ const productRoute = require('./routes/product');
 const orderRoute = require('./routes/orders');
 const jwt = require('jsonwebtoken');
 
+
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
