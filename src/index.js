@@ -4,12 +4,12 @@ const {mongoose} = require('mongoose');
 const userRoute = require('../src/routes/user');
 const productRoute = require('./routes/product');
 const orderRoute = require('./routes/orders');
-const jwt = require('jsonwebtoken');
-
+const morgan = require('morgan');
 
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
+app.use(morgan("tiny"));
 
 mongoose.connect("mongodb://127.0.0.1:27017/ecommerce", {
     useNewUrlParser: true
